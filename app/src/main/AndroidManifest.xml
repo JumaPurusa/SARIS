@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saris">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Actvities.SecurityActivity"></activity>
+        <activity android:name=".Actvities.CommunicationActivity" />
+        <activity android:name=".Actvities.EVoting" />
+        <activity android:name=".Actvities.ELearningActivity" />
+        <activity android:name=".Actvities.ResultsActivity" />
+        <activity android:name=".Actvities.TimetableActivity" />
+        <activity android:name=".Actvities.Admission" />
+        <activity android:name=".Actvities.AccommodationActivity" />
+        <activity
+            android:name=".Actvities.LoginActivity"
+            android:theme="@style/AppTheme.Translucent" />
+        <activity
+            android:name=".Actvities.SplashActivity"
+            android:theme="@style/AppTheme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Actvities.MainActivity" />
+    </application>
+
+</manifest>
